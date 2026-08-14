@@ -1,0 +1,1051 @@
+{
+  "version": "0.10.0",
+  "protocol": {
+    "seeds": [
+      3,
+      11,
+      29,
+      47
+    ],
+    "population": 256,
+    "generations": 25,
+    "beam_width": 64,
+    "candidate_budget": 32,
+    "max_program_length": 6,
+    "hidden_probes": 32
+  },
+  "rows": [
+    {
+      "seed": 3,
+      "target": 0,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1,
+      "active_queries": 25,
+      "active_evaluations": 42981,
+      "active_cache_hit_rate": 0.5204725990717601,
+      "active_falsifications": 5057,
+      "active_program": [
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "passive_survivors": 6,
+      "passive_eliminations": 92,
+      "passive_queries": 25
+    },
+    {
+      "seed": 3,
+      "target": 1,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1,
+      "active_queries": 25,
+      "active_evaluations": 43328,
+      "active_cache_hit_rate": 0.5166012138521956,
+      "active_falsifications": 5287,
+      "active_program": [
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 7,
+      "passive_eliminations": 91,
+      "passive_queries": 25
+    },
+    {
+      "seed": 3,
+      "target": 2,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2.2,
+      "active_queries": 25,
+      "active_evaluations": 42767,
+      "active_cache_hit_rate": 0.5228601392359872,
+      "active_falsifications": 5385,
+      "active_program": [
+        [
+          "P",
+          "add",
+          2
+        ]
+      ],
+      "passive_survivors": 6,
+      "passive_eliminations": 92,
+      "passive_queries": 25
+    },
+    {
+      "seed": 3,
+      "target": 3,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1,
+      "active_queries": 25,
+      "active_evaluations": 39866,
+      "active_cache_hit_rate": 0.5552258122099251,
+      "active_falsifications": 4874,
+      "active_program": [
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 7,
+      "passive_eliminations": 91,
+      "passive_queries": 25
+    },
+    {
+      "seed": 3,
+      "target": 4,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 4.4,
+      "active_queries": 25,
+      "active_evaluations": 43597,
+      "active_cache_hit_rate": 0.5136000535523028,
+      "active_falsifications": 4640,
+      "active_program": [
+        [
+          "P",
+          "mul",
+          0
+        ],
+        [
+          "U",
+          "abs",
+          null
+        ],
+        [
+          "P",
+          "add",
+          1
+        ]
+      ],
+      "passive_survivors": 13,
+      "passive_eliminations": 149,
+      "passive_queries": 25
+    },
+    {
+      "seed": 3,
+      "target": 5,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 48055,
+      "active_cache_hit_rate": 0.4638633523741521,
+      "active_falsifications": 6142,
+      "active_program": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 10,
+      "passive_eliminations": 153,
+      "passive_queries": 25
+    },
+    {
+      "seed": 3,
+      "target": 6,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2.4,
+      "active_queries": 25,
+      "active_evaluations": 45870,
+      "active_cache_hit_rate": 0.48824080685469473,
+      "active_falsifications": 6203,
+      "active_program": [
+        [
+          "P",
+          "rot",
+          2
+        ],
+        [
+          "P",
+          "add",
+          -1
+        ]
+      ],
+      "passive_survivors": 9,
+      "passive_eliminations": 153,
+      "passive_queries": 25
+    },
+    {
+      "seed": 3,
+      "target": 7,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 45958,
+      "active_cache_hit_rate": 0.48725901463762944,
+      "active_falsifications": 4931,
+      "active_program": [
+        [
+          "U",
+          "diff",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 16,
+      "passive_eliminations": 147,
+      "passive_queries": 25
+    },
+    {
+      "seed": 3,
+      "target": 8,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 44974,
+      "active_cache_hit_rate": 0.49823723670117814,
+      "active_falsifications": 4727,
+      "active_program": [
+        [
+          "U",
+          "sort",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "passive_survivors": 18,
+      "passive_eliminations": 145,
+      "passive_queries": 25
+    },
+    {
+      "seed": 3,
+      "target": 9,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 3.2,
+      "active_queries": 25,
+      "active_evaluations": 48565,
+      "active_cache_hit_rate": 0.4581734202070689,
+      "active_falsifications": 6184,
+      "active_program": [
+        [
+          "P",
+          "add",
+          -2
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 12,
+      "passive_eliminations": 214,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 0,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1,
+      "active_queries": 25,
+      "active_evaluations": 41697,
+      "active_cache_hit_rate": 0.5347978400571225,
+      "active_falsifications": 5012,
+      "active_program": [
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "passive_survivors": 6,
+      "passive_eliminations": 92,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 1,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1.2,
+      "active_queries": 25,
+      "active_evaluations": 42714,
+      "active_cache_hit_rate": 0.5234514459121742,
+      "active_falsifications": 5357,
+      "active_program": [
+        [
+          "P",
+          "mul",
+          -1
+        ]
+      ],
+      "passive_survivors": 7,
+      "passive_eliminations": 91,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 2,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2.2,
+      "active_queries": 25,
+      "active_evaluations": 46054,
+      "active_cache_hit_rate": 0.48618796858264907,
+      "active_falsifications": 5148,
+      "active_program": [
+        [
+          "P",
+          "add",
+          2
+        ]
+      ],
+      "passive_survivors": 6,
+      "passive_eliminations": 92,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 3,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1,
+      "active_queries": 25,
+      "active_evaluations": 41124,
+      "active_cache_hit_rate": 0.5411906461977865,
+      "active_falsifications": 5004,
+      "active_program": [
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 7,
+      "passive_eliminations": 91,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 4,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 3.2,
+      "active_queries": 25,
+      "active_evaluations": 43137,
+      "active_cache_hit_rate": 0.518732149232417,
+      "active_falsifications": 4947,
+      "active_program": [
+        [
+          "U",
+          "abs",
+          null
+        ],
+        [
+          "U",
+          "abs",
+          null
+        ],
+        [
+          "P",
+          "add",
+          1
+        ]
+      ],
+      "passive_survivors": 13,
+      "passive_eliminations": 150,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 5,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 45053,
+      "active_cache_hit_rate": 0.4973558550517672,
+      "active_falsifications": 5332,
+      "active_program": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 10,
+      "passive_eliminations": 153,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 6,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2.4,
+      "active_queries": 25,
+      "active_evaluations": 46696,
+      "active_cache_hit_rate": 0.4790253480899679,
+      "active_falsifications": 6271,
+      "active_program": [
+        [
+          "P",
+          "add",
+          -1
+        ],
+        [
+          "P",
+          "rot",
+          2
+        ]
+      ],
+      "passive_survivors": 9,
+      "passive_eliminations": 154,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 7,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 43132,
+      "active_cache_hit_rate": 0.5187879328811139,
+      "active_falsifications": 4952,
+      "active_program": [
+        [
+          "U",
+          "neg",
+          null
+        ],
+        [
+          "U",
+          "diff",
+          null
+        ]
+      ],
+      "passive_survivors": 16,
+      "passive_eliminations": 147,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 8,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 42508,
+      "active_cache_hit_rate": 0.5257497322384862,
+      "active_falsifications": 4333,
+      "active_program": [
+        [
+          "U",
+          "sort",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "passive_survivors": 18,
+      "passive_eliminations": 145,
+      "passive_queries": 25
+    },
+    {
+      "seed": 11,
+      "target": 9,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 6.6,
+      "active_queries": 25,
+      "active_evaluations": 48932,
+      "active_cache_hit_rate": 0.45407890039271687,
+      "active_falsifications": 6253,
+      "active_program": [
+        [
+          "U",
+          "neg",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "P",
+          "add",
+          0
+        ],
+        [
+          "P",
+          "add",
+          -1
+        ],
+        [
+          "P",
+          "add",
+          3
+        ]
+      ],
+      "passive_survivors": 12,
+      "passive_eliminations": 212,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 0,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1,
+      "active_queries": 25,
+      "active_evaluations": 43773,
+      "active_cache_hit_rate": 0.5116364691181721,
+      "active_falsifications": 5058,
+      "active_program": [
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "passive_survivors": 6,
+      "passive_eliminations": 92,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 1,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1,
+      "active_queries": 25,
+      "active_evaluations": 41967,
+      "active_cache_hit_rate": 0.5317855230274902,
+      "active_falsifications": 4993,
+      "active_program": [
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 7,
+      "passive_eliminations": 91,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 2,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1.2,
+      "active_queries": 25,
+      "active_evaluations": 42496,
+      "active_cache_hit_rate": 0.5258836129953588,
+      "active_falsifications": 5542,
+      "active_program": [
+        [
+          "P",
+          "add",
+          2
+        ]
+      ],
+      "passive_survivors": 6,
+      "passive_eliminations": 92,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 3,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1,
+      "active_queries": 25,
+      "active_evaluations": 42332,
+      "active_cache_hit_rate": 0.5277133166726169,
+      "active_falsifications": 4926,
+      "active_program": [
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 7,
+      "passive_eliminations": 91,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 4,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 3.2,
+      "active_queries": 25,
+      "active_evaluations": 42342,
+      "active_cache_hit_rate": 0.5276017493752231,
+      "active_falsifications": 4746,
+      "active_program": [
+        [
+          "U",
+          "abs",
+          null
+        ],
+        [
+          "P",
+          "add",
+          1
+        ],
+        [
+          "U",
+          "abs",
+          null
+        ]
+      ],
+      "passive_survivors": 13,
+      "passive_eliminations": 150,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 5,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 47378,
+      "active_cache_hit_rate": 0.4714164584077115,
+      "active_falsifications": 5659,
+      "active_program": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 10,
+      "passive_eliminations": 153,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 6,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2.4,
+      "active_queries": 25,
+      "active_evaluations": 46622,
+      "active_cache_hit_rate": 0.4798509460906819,
+      "active_falsifications": 6017,
+      "active_program": [
+        [
+          "P",
+          "add",
+          -1
+        ],
+        [
+          "P",
+          "rot",
+          2
+        ]
+      ],
+      "passive_survivors": 9,
+      "passive_eliminations": 154,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 7,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 44510,
+      "active_cache_hit_rate": 0.5034139593002499,
+      "active_falsifications": 4915,
+      "active_program": [
+        [
+          "U",
+          "diff",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 16,
+      "passive_eliminations": 147,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 8,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 45722,
+      "active_cache_hit_rate": 0.48989200285612283,
+      "active_falsifications": 4750,
+      "active_program": [
+        [
+          "U",
+          "sort",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "passive_survivors": 18,
+      "passive_eliminations": 145,
+      "passive_queries": 25
+    },
+    {
+      "seed": 29,
+      "target": 9,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 3.4,
+      "active_queries": 25,
+      "active_evaluations": 48692,
+      "active_cache_hit_rate": 0.4567565155301678,
+      "active_falsifications": 5902,
+      "active_program": [
+        [
+          "P",
+          "mul",
+          -1
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "P",
+          "add",
+          2
+        ]
+      ],
+      "passive_survivors": 13,
+      "passive_eliminations": 213,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 0,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1,
+      "active_queries": 25,
+      "active_evaluations": 43554,
+      "active_cache_hit_rate": 0.5140797929310961,
+      "active_falsifications": 5304,
+      "active_program": [
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "passive_survivors": 6,
+      "passive_eliminations": 92,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 1,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 40023,
+      "active_cache_hit_rate": 0.5534742056408426,
+      "active_falsifications": 4858,
+      "active_program": [
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 7,
+      "passive_eliminations": 91,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 2,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2.4,
+      "active_queries": 25,
+      "active_evaluations": 41809,
+      "active_cache_hit_rate": 0.533548286326312,
+      "active_falsifications": 5424,
+      "active_program": [
+        [
+          "P",
+          "add",
+          3
+        ],
+        [
+          "P",
+          "add",
+          -1
+        ]
+      ],
+      "passive_survivors": 6,
+      "passive_eliminations": 92,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 3,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 1.2,
+      "active_queries": 25,
+      "active_evaluations": 41288,
+      "active_cache_hit_rate": 0.5393609425205284,
+      "active_falsifications": 4989,
+      "active_program": [
+        [
+          "P",
+          "mul",
+          -1
+        ]
+      ],
+      "passive_survivors": 7,
+      "passive_eliminations": 91,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 4,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 3.4,
+      "active_queries": 25,
+      "active_evaluations": 44118,
+      "active_cache_hit_rate": 0.5077873973580864,
+      "active_falsifications": 4712,
+      "active_program": [
+        [
+          "U",
+          "abs",
+          null
+        ],
+        [
+          "P",
+          "add",
+          -1
+        ],
+        [
+          "P",
+          "add",
+          2
+        ]
+      ],
+      "passive_survivors": 13,
+      "passive_eliminations": 150,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 5,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 45488,
+      "active_cache_hit_rate": 0.49250267761513744,
+      "active_falsifications": 5336,
+      "active_program": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 10,
+      "passive_eliminations": 152,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 6,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2.4,
+      "active_queries": 25,
+      "active_evaluations": 45769,
+      "active_cache_hit_rate": 0.489367636558372,
+      "active_falsifications": 5706,
+      "active_program": [
+        [
+          "P",
+          "add",
+          -1
+        ],
+        [
+          "P",
+          "rot",
+          2
+        ]
+      ],
+      "passive_survivors": 9,
+      "passive_eliminations": 154,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 7,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 43212,
+      "active_cache_hit_rate": 0.5178953945019635,
+      "active_falsifications": 4875,
+      "active_program": [
+        [
+          "U",
+          "diff",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "passive_survivors": 16,
+      "passive_eliminations": 147,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 8,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 2,
+      "active_queries": 25,
+      "active_evaluations": 47507,
+      "active_cache_hit_rate": 0.46997724027133164,
+      "active_falsifications": 4637,
+      "active_program": [
+        [
+          "U",
+          "sort",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "passive_survivors": 18,
+      "passive_eliminations": 145,
+      "passive_queries": 25
+    },
+    {
+      "seed": 47,
+      "target": 9,
+      "active_found": true,
+      "active_accuracy": 1.0,
+      "active_complexity": 5.6,
+      "active_queries": 25,
+      "active_evaluations": 47755,
+      "active_cache_hit_rate": 0.4672103712959657,
+      "active_falsifications": 5860,
+      "active_program": [
+        [
+          "P",
+          "add",
+          3
+        ],
+        [
+          "P",
+          "add",
+          -2
+        ],
+        [
+          "P",
+          "add",
+          -3
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "passive_survivors": 13,
+      "passive_eliminations": 214,
+      "passive_queries": 25
+    }
+  ],
+  "summary": {
+    "trials": 40,
+    "mean_hidden_accuracy": 1.0,
+    "discovery_rate": 1,
+    "mean_cache_hit_rate": 0.5053761491431632,
+    "mean_falsifications": 5256.2
+  }
+}
