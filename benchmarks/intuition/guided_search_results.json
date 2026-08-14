@@ -1,0 +1,36 @@
+{
+  "version": "0.14",
+  "candidate_count": 39,
+  "domain_size": 9,
+  "target": [
+    "sort"
+  ],
+  "blind": {
+    "found": true,
+    "evaluations": 2,
+    "candidate": [
+      "sort"
+    ]
+  },
+  "guided": {
+    "found": true,
+    "evaluations": 1,
+    "candidate": [
+      "rev",
+      "rev",
+      "sort"
+    ],
+    "score": {
+      "total": 0.7791666666666667,
+      "novelty": 1.0,
+      "similarity": 1.0,
+      "compression": 0.6666666666666666,
+      "falsification_value": 1.0,
+      "failure_penalty": 0.0,
+      "complexity_penalty": 0.375
+    }
+  },
+  "evaluation_reduction": 0.5,
+  "solution_preserved": true,
+  "knowledge_rules": 5
+}
