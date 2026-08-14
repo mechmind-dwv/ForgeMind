@@ -1,0 +1,101 @@
+{
+  "version": "0.13.1",
+  "program_lengths": [
+    1,
+    2,
+    3
+  ],
+  "operators": [
+    "rev",
+    "sort",
+    "neg"
+  ],
+  "domain_size": 36,
+  "raw_candidates": 39,
+  "normalized_candidates": 12,
+  "syntactic_reduction": 0.6923076923076923,
+  "semantic_classes_before": 8,
+  "semantic_classes_after": 8,
+  "total_rewrites": 34,
+  "mean_rewrites_per_candidate": 0.8717948717948718,
+  "raw_complexity": 102,
+  "normalized_complexity": 59,
+  "complexity_reduction": 0.42156862745098034,
+  "behavior_preserved": true,
+  "validated_rules": [
+    {
+      "rule_id": "sort-idempotence",
+      "pattern": [
+        "sort",
+        "sort"
+      ],
+      "replacement": [
+        "sort"
+      ],
+      "family": "idempotence",
+      "validation_method": "bounded",
+      "validated_cases": 36,
+      "status": "VALIDATED"
+    },
+    {
+      "rule_id": "rev-involution",
+      "pattern": [
+        "rev",
+        "rev"
+      ],
+      "replacement": [],
+      "family": "involution",
+      "validation_method": "bounded",
+      "validated_cases": 36,
+      "status": "VALIDATED"
+    },
+    {
+      "rule_id": "neg-involution",
+      "pattern": [
+        "neg",
+        "neg"
+      ],
+      "replacement": [],
+      "family": "involution",
+      "validation_method": "bounded",
+      "validated_cases": 36,
+      "status": "VALIDATED"
+    },
+    {
+      "rule_id": "rev-neg-commutation",
+      "pattern": [
+        "rev",
+        "neg"
+      ],
+      "replacement": [
+        "neg",
+        "rev"
+      ],
+      "family": "commutation",
+      "validation_method": "bounded",
+      "validated_cases": 36,
+      "status": "VALIDATED"
+    },
+    {
+      "rule_id": "sort-after-reversal",
+      "pattern": [
+        "rev",
+        "sort"
+      ],
+      "replacement": [
+        "sort"
+      ],
+      "family": "permutation-invariance",
+      "validation_method": "bounded",
+      "validated_cases": 36,
+      "status": "VALIDATED"
+    }
+  ],
+  "rule_usage": {
+    "rev-involution": 7,
+    "sort-after-reversal": 7,
+    "rev-neg-commutation": 5,
+    "sort-idempotence": 8,
+    "neg-involution": 7
+  }
+}
