@@ -1,0 +1,122 @@
+{
+  "version": "0.13",
+  "program_space": 120,
+  "domain_size": 36,
+  "rules": 5,
+  "validated_rules": 5,
+  "target": [
+    [
+      "U",
+      "sort",
+      null
+    ]
+  ],
+  "witness": [
+    [
+      "U",
+      "sort",
+      null
+    ]
+  ],
+  "baseline": {
+    "found": true,
+    "evaluations": 3,
+    "complexity": 1,
+    "program": [
+      [
+        "U",
+        "sort",
+        null
+      ]
+    ]
+  },
+  "compositional": {
+    "found": true,
+    "evaluations": 3,
+    "compressed_programs": 105,
+    "candidate_count": 16,
+    "complexity": 1,
+    "program": [
+      [
+        "U",
+        "sort",
+        null
+      ]
+    ]
+  },
+  "search_reduction": 0.0,
+  "composition_examples": [
+    {
+      "input": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "output": [
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "rules": [
+        "sort-after-reversal"
+      ],
+      "complexity_before": 2,
+      "complexity_after": 1
+    },
+    {
+      "input": [
+        [
+          "U",
+          "sort",
+          null
+        ],
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "output": [
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "rules": [
+        "sort-idempotence"
+      ],
+      "complexity_before": 2,
+      "complexity_after": 1
+    },
+    {
+      "input": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "output": [],
+      "rules": [
+        "rev-involution"
+      ],
+      "complexity_before": 2,
+      "complexity_after": 0
+    }
+  ]
+}
