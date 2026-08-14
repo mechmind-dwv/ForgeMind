@@ -1,0 +1,141 @@
+{
+  "version": "0.12",
+  "pairs": 6,
+  "explained": 5,
+  "unexplained": 1,
+  "explanation_rate": 0.8333333333333334,
+  "rules": [
+    {
+      "left": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "rule": "sort-after-reversal",
+      "family": "permutation-invariance",
+      "explanation": "Sorting removes the ordering information introduced by reversal."
+    },
+    {
+      "left": [
+        [
+          "U",
+          "sort",
+          null
+        ],
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "rule": "sort-idempotence",
+      "family": "idempotence",
+      "explanation": "Applying sort twice has the same effect as applying it once."
+    },
+    {
+      "left": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "U",
+          "neg",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "rule": "rev-neg-commutation",
+      "family": "commutation",
+      "explanation": "Reversal acts on positions while negation acts on values."
+    },
+    {
+      "left": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "right": [],
+      "rule": "rev-involution",
+      "family": "involution",
+      "explanation": "Reversal is its own inverse."
+    },
+    {
+      "left": [
+        [
+          "U",
+          "neg",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "right": [],
+      "rule": "neg-involution",
+      "family": "involution",
+      "explanation": "Negation is its own inverse."
+    },
+    {
+      "left": [
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "rule": null,
+      "family": null,
+      "explanation": null
+    }
+  ]
+}

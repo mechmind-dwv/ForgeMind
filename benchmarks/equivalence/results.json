@@ -1,0 +1,138 @@
+{
+  "version": "0.11",
+  "programs": 12,
+  "domain_size": 36,
+  "total_pairs": 66,
+  "canonical_pairs": 0,
+  "semantic_pairs": 5,
+  "non_equivalent_pairs": 61,
+  "bounded_cases_checked": 287,
+  "semantic_discovery_rate": 0.07575757575757576,
+  "examples": [
+    {
+      "left": [
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "cases_checked": 36
+    },
+    {
+      "left": [
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "U",
+          "sort",
+          null
+        ],
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "cases_checked": 36
+    },
+    {
+      "left": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "U",
+          "neg",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "cases_checked": 36
+    },
+    {
+      "left": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "neg",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "U",
+          "neg",
+          null
+        ],
+        [
+          "U",
+          "rev",
+          null
+        ]
+      ],
+      "cases_checked": 36
+    },
+    {
+      "left": [
+        [
+          "U",
+          "rev",
+          null
+        ],
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "right": [
+        [
+          "U",
+          "sort",
+          null
+        ],
+        [
+          "U",
+          "sort",
+          null
+        ]
+      ],
+      "cases_checked": 36
+    }
+  ]
+}
